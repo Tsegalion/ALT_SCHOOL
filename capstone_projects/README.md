@@ -74,12 +74,34 @@ The script will print details of all expenses stored in the ExpenseDB. For examp
 2. Printing an Expense by ID (User Input Required)
 The script will prompt the user to enter the ID of the expense they want to retrieve. If a valid ID is entered, it will print the details of the specific expense. For example;
 
-![Alt text](image.png)
+```bash
+Enter the ID of the expense you want to retrieve (paste the ID here): 8e444faa-b4a9-4a68-a089-d7fe552475ff
+
+Printing expense by ID:
+{'id': '8e444faa-b4a9-4a68-a089-d7fe552475ff', 'title': 'Wife', 'amount': 2000000, 'created_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902), 'updated_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902)}
+```
 
 3. Printing Expenses by Title
 The script will print details of expenses with a specific title (in this case, "Utilities"):
+```bash
+Printing expenses by title:
+{'id': '8c0cc2c3-3e8e-4ef7-8e6e-f4445bedba55', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902), 'updated_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902)}
+```
 
 ### Handling Incorrect ID
 If an incorrect or non-existent ID is entered, the script will notify the user that the expense was not found;
 
-![Alt text](image-2.png)
+```bash
+Printing all expenses:
+{'id': '48889a06-17be-476c-a173-5494294c05f2', 'title': 'Groceries', 'amount': 200000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
+{'id': 'd89b067e-9478-44e3-9d2e-996f67a04802', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
+{'id': 'ea96b6d0-d820-42be-8a3f-7f783caf3e81', 'title': 'Wife', 'amount': 2000000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
+
+Enter the ID of the expense you want to retrieve (paste the ID here): 22828e8dcdfnfjfj99393
+
+Printing expense by ID:
+Expense not found. Make sure it's a valid ID
+
+Printing expenses by title:
+{'id': 'd89b067e-9478-44e3-9d2e-996f67a04802', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
+```
