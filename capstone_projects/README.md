@@ -92,16 +92,8 @@ Printing expenses by title:
 If an incorrect or non-existent ID is entered, the script will notify the user that the expense was not found;
 
 ```bash
-Printing all expenses:
-{'id': '48889a06-17be-476c-a173-5494294c05f2', 'title': 'Groceries', 'amount': 200000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
-{'id': 'd89b067e-9478-44e3-9d2e-996f67a04802', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
-{'id': 'ea96b6d0-d820-42be-8a3f-7f783caf3e81', 'title': 'Wife', 'amount': 2000000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
-
 Enter the ID of the expense you want to retrieve (paste the ID here): 22828e8dcdfnfjfj99393
 
 Printing expense by ID:
 Expense not found. Make sure it's a valid ID
-
-Printing expenses by title:
-{'id': 'd89b067e-9478-44e3-9d2e-996f67a04802', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030), 'updated_at': datetime.datetime(2023, 12, 20, 18, 18, 26, 693030)}
 ```
