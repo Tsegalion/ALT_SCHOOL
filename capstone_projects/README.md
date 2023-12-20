@@ -95,5 +95,5 @@ If an incorrect or non-existent ID is entered, the script will notify the user t
 Enter the ID of the expense you want to retrieve (paste the ID here): 22828e8dcdfnfjfj99393
 
 Printing expense by ID:
-Expense not found. Make sure it's a valid ID
+Expense not found. Make sure it is a valid ID
 ```
