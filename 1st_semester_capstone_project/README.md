@@ -69,13 +69,13 @@ The `to_dict` method converts an Expense object into a dictionary.
 An ExpenseDB object is created to serve as a container for managing expenses.
 
 #### Adding a New Expense:
-The `add_expense` method is used to add a new expense to the database. For instance, a grocery expense with a `title` of "Groceries" and an `amount` of $50.00 or expense titled "Wife" with an amount of $1000.00 is added.
+The `add_expense` method is used to add a new expense to the database. For instance, a grocery expense with a `title` of "Groceries" and an `amount` of $50.00 or expense titled "Wife" with an `amount` of $1000.00 is added.
 
 #### Removing an Expense by ID:
-The `remove_expense` method allows the removal of a specific expense based on its unique identifier (ID). For example, the expense with ID "8e444faa-b4a9-4a68-a089-d7fe552475ff" is removed from the database.
+The `remove_expense` method allows the removal of a specific expense based on its unique identifier (ID). For example, the expense with `ID` "8e444faa-b4a9-4a68-a089-d7fe552475ff" is removed from the database.
 
 #### Retrieving an Expense by ID:
-The `get_expense_by_id` method retrieves an expense from the database based on its unique identifier (ID). For instance, the expense with ID "1c981f83-8990-43d3-8090-ab8e5e2e3d98" is retrieved.
+The `get_expense_by_id` method retrieves an expense from the database based on its unique identifier (ID). For instance, the expense with `ID` "1c981f83-8990-43d3-8090-ab8e5e2e3d98" is retrieved.
 
 #### Retrieving Expenses by Title:
 The `get_expenses_by_title` method retrieves a list of expenses with a specific title. For example, all expenses with the `title` "Wife" are retrieved.
