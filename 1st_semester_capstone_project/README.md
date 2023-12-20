@@ -2,7 +2,7 @@
 
 ## Project Description
 
-My Expense Management System is a python project that demonstrates object-oriented programming (OOP) concepts. It includes two classes, `Expense` and `ExpenseDB`, designed to model and manage financial expenses.
+My Expense Management System is a python project that demonstrates object-oriented programming (OOP) concepts. It includes two classes, `Expense` and `ExpenseDB`, designed to model and manage my financial expenses.
 
 ### Expense Class
 
@@ -24,7 +24,7 @@ Represents my financial expenses.
 
 ### Expense Database Class
 
-Manages a collection of my `Expense` objects.
+Manages a collection `Expense` objects.
 
 #### Attributes:
 
@@ -59,27 +59,28 @@ python expense.py # to run the expense script
 ### Expected Outputs:
 After running the code, you can expect the following functionality:
 
-`Expense Class`:
+## Expense Class:
 
 An Expense object is created with a unique identifier `id`, `title`, `amount`, and timestamps for creation `created_at` and last update `updated_at`.
 The `update method` allows you to modify the `title` and/or `amount` of the expense, updating the `updated_at` timestamp to the current time.
 The `to_dict` method converts an Expense object into a dictionary.
 
-`ExpenseDB`: An ExpenseDB object is created to serve as a container for managing expenses.
+## ExpenseDB:
+An ExpenseDB object is created to serve as a container for managing expenses.
 
-`Adding a New Expense`:
+# Adding a New Expense:
 The `add_expense` method is used to add a new expense to the database. For instance, a grocery expense with a `title` of "Groceries" and an `amount` of $50.00 or expense titled "Wife" with an amount of $1000.00 is added.
 
-`Removing an Expense by ID`:
+# Removing an Expense by ID:
 The `remove_expense` method allows the removal of a specific expense based on its unique identifier (ID). For example, the expense with ID "8e444faa-b4a9-4a68-a089-d7fe552475ff" is removed from the database.
 
-`Retrieving an Expense by ID`:
+# Retrieving an Expense by ID:
 The `get_expense_by_id` method retrieves an expense from the database based on its unique identifier (ID). For instance, the expense with ID "1c981f83-8990-43d3-8090-ab8e5e2e3d98" is retrieved.
 
-`Retrieving Expenses by Title`:
+# Retrieving Expenses by Title:
 The `get_expenses_by_title` method retrieves a list of expenses with a specific title. For example, all expenses with the `title` "Wife" are retrieved.
 
-`Converting to Dictionary`:
+# Converting to Dictionary:
 The `to_dict` method is used to convert the entire ExpenseDB object, including all stored expenses, into a list of dictionaries.
 
 The above actions collectively demonstrate the basic functionality of `my expense management system`, allowing you to `add`, `remove`, and `retrieve` expenses based on different criteria.
