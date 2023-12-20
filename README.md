@@ -1,1 +1,1 @@
-# Welcome to all my alt_school capstone projects
+# Alt School Capstone Projects Repository
