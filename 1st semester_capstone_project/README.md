@@ -45,7 +45,7 @@ Manages a collection of `Expense` objects.
 To clone this project, you should run the following command in your terminal:
 
 ```bash
-git clone https://github.com/your-username/expense-management-system.git
+git clone https://github.com/Tsegalion/ALT_SCHOOL.git
 ```
 
 ## Dummy Data Example Script
