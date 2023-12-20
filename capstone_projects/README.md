@@ -46,7 +46,7 @@ To clone this project, run the following command in your terminal:
 
 ```bash
 git clone https://github.com/your-username/expense-management-system.git
-
+```
 
 ## Dummy Data Example Script
 
@@ -59,18 +59,22 @@ To execute the script, run the following command in your terminal:
 ```bash
 cd capstone_projects
 python dummy_data_example.py
-
+```
 
 ### Expected Outputs:
 1. Printing All Expenses
 The script will print details of all expenses stored in the ExpenseDB. For example;
 
+```bash
+{'id': '1c981f83-8990-43d3-8090-ab8e5e2e3d98', 'title': 'Groceries', 'amount': 200000, 'created_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683), 'updated_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683)}
+{'id': '2e6e9ca9-5541-4231-ad31-e1db465f7d1c', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683), 'updated_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683)}
+{'id': '8e444faa-b4a9-4a68-a089-d7fe552475ff', 'title': 'Wife', 'amount': 2000000, 'created_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683), 'updated_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683)}
+```
 
 2. Printing an Expense by ID (User Input Required)
 The script will prompt the user to enter the ID of the expense they want to retrieve. If a valid ID is entered, it will print the details of the specific expense. For example;
 
-
-
+![Alt text](image.png)
 
 3. Printing Expenses by Title
 The script will print details of expenses with a specific title (in this case, "Utilities"):
@@ -78,6 +82,4 @@ The script will print details of expenses with a specific title (in this case, "
 ### Handling Incorrect ID
 If an incorrect or non-existent ID is entered, the script will notify the user that the expense was not found;
 
-
-
-
+![Alt text](image-2.png)
