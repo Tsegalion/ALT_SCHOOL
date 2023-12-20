@@ -42,7 +42,7 @@ Manages a collection of `Expense` objects.
 
 ## How to Clone the Project
 
-To clone this project, run the following command in your terminal:
+To clone this project, you should run the following command in your terminal:
 
 ```bash
 git clone https://github.com/your-username/expense-management-system.git
@@ -50,15 +50,15 @@ git clone https://github.com/your-username/expense-management-system.git
 
 ## Dummy Data Example Script
 
-The `dummy_data_example.py` script demonstrates the usage of the Expense Management System classes with a predefined set of dummy data.
+The `dummy_data_example.py` script demonstrates the usage of the Expense classes with a predefined set of dummy data.
 
 ### Running the Script
 
-To execute the script, run the following command in your terminal:
+To execute the script, you should run the following command in your terminal:
 
 ```bash
-cd capstone_projects
-python dummy_data_example.py
+cd capstone_projects # to navigate to the project directory:
+python dummy_data_example.py # to run the dummy_data script
 ```
 
 ### Expected Outputs:
@@ -78,14 +78,14 @@ The script will prompt the user to enter the ID of the expense they want to retr
 Enter the ID of the expense you want to retrieve (paste the ID here): 8e444faa-b4a9-4a68-a089-d7fe552475ff
 
 Printing expense by ID:
-{'id': '8e444faa-b4a9-4a68-a089-d7fe552475ff', 'title': 'Wife', 'amount': 2000000, 'created_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902), 'updated_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902)}
+{'id': '8e444faa-b4a9-4a68-a089-d7fe552475ff', 'title': 'Wife', 'amount': 2000000, 'created_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683), 'updated_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683)}
 ```
 
 3. Printing Expenses by Title
 The script will print details of expenses with a specific title (in this case, "Utilities"):
 ```bash
 Printing expenses by title:
-{'id': '8c0cc2c3-3e8e-4ef7-8e6e-f4445bedba55', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902), 'updated_at': datetime.datetime(2023, 12, 20, 18, 16, 33, 577902)}
+{'id': '2e6e9ca9-5541-4231-ad31-e1db465f7d1c', 'title': 'Utilities', 'amount': 100000, 'created_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683), 'updated_at': datetime.datetime(2023, 12, 20, 18, 6, 53, 845683)}
 ```
 
 ### Handling Incorrect ID
