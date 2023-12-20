@@ -1,1 +1,1 @@
-# Welcomee to all my alt_school capstone projects
+# Welcome to all my alt_school capstone projects
